@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+<style>
+     header{
+
+      background-color: orange;
+      padding: 10px 20px;
+      text-align: right;
+      width: 100%;
+    display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        background-color: orange;
+        color: #fff;
+    }
+    nav {
+      background-color: #000;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      text-decoration: none;
+      margin: 10px;
+      color: #fff;
+      font-weight: bold;
+    }
+    main {
+      padding: 20px;
+    }
+    footer {
+      background-color: #e50914;
+      padding: 20px;
+      text-align: center;
+    }
+    .video {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-bottom: 20px;
+      border:orange;
+    }
+    .video .thumbnail {
+      position: relative;
+      width: 250px;
+      height: 140px;
+      margin: 10px;
+      overflow: hidden;
+      transition: transform 0.3s;
+      background-color: #333;
+    }
+    .video .thumbnail img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .video .thumbnail:hover {
+      transform: scale(1.1);
+    }
+    .video .title {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      background-color: rgba(0, 0, 0, 0.7);
+      color: #fff;
+      padding: 10px;
+      margin: 0;
+      font-weight: bold;
+    }
+    
+    header, nav, main, footer {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .video .thumbnail {
+      width: 275px;
+      height: 155px;
+    }
+    .video .title {
+      font-size: 14px;
+      padding: 8px;
+    }
+</style>
+<body>
+    <header><h1>FOOD ONE</h1></header>
+    <nav>
+        <a href="FINAL.html">Home</a>
+        <a href="Menus.html">Menus</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">contact</a>
+      
+      </nav>
+<main>
+    <h2>Mcdonalds</h2>
+    <div class="video">
+      <div class="thumbnail">
+        <a href="home.html">
+        <img src="C:\Users\khent\Downloads\mcdo.jfif" alt="clickable image"></a>
+        <div class="title">KING BURGER</div>
+      </div>
+      <div class="thumbnail">
+        <a href="home.html">
+        <img src="C:\Users\khent\Downloads\mcdo1.jfif" alt="clickable image"></a>
+        <button>Buy</button>
+        <div class="title">KING FRIED CHICKEN</div>
+      </div>
+      <div class="thumbnail">
+        <a href="home.html">
+        <img src="C:\Users\khent\Downloads\mcdo2.jfif" alt="clickable image"></a>
+        <button>Buy</button>
+        <div class="title">KING NUGGETS</div>
+      </div>
+      <div class="thumbnail">
+        <a href="home.html">
+        <img src="C:\Users\khent\Downloads\mcdo3.jfif" alt="clickable"></a>
+        <button>Buy</button>
+        <div class="title">SeniorHigh</div>
+      </div>
+          </div>
+</main>
+</body>
+</html>
